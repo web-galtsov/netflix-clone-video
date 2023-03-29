@@ -46,7 +46,7 @@ const MovieCard: React.FC<MovieCardProps> = ({ data }) => {
         scale-0
         group-hover:scale-110
         group-hover:-translate-y-[6vw]
-        group-hover:translate-x-[2vw]
+        group-hover:translate-x-[1vw]
         group-hover:opacity-100
       ">
         <img onClick={redirectToWatch} src={data.thumbnailUrl} alt="Movie" draggable={false} className="
@@ -82,7 +82,7 @@ const MovieCard: React.FC<MovieCardProps> = ({ data }) => {
           <p className="text-green-400 font-semibold mt-4">
             New <span className="text-white">2023</span>
           </p>
-          <div className="flex flex-row mt-4 gap-2 items-center"> 
+          <div className="flex flex-row mt-4 gap-2 items-center">
             <p className="text-white text-[10px] lg:text-sm">{data.duration}</p>
           </div>
           <div className="flex flex-row items-center gap-2 mt-4 text-[8px] text-white lg:text-sm">
